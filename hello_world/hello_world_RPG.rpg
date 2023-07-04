@@ -1,0 +1,20 @@
+     H DFTACTGRP(*NO)
+     FHELLO    CF   E             WORKSTN
+      /FREE
+       WRITE HELLOMSG;
+       *INLR = *ON;
+      /END-FREE
+     H MAIN(Main)
+      /FREE
+      BEGSR Main;
+         EXSR SendHelloMsg;
+         *INLR = *ON;
+      ENDSR;
+
+     BEGSR SendHelloMsg;
+         WRITE WORKSTN;
+     ENDSR;
+     H HELLOMSG     S             50A   INZ('Hello, World!')
+     H                                     PRINT
+     H                                     DSPATR(UL)
+      /END-FREE
