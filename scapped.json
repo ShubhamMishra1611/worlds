@@ -181,11 +181,6 @@
         "hello_world": "Transcript show: 'Hello, World!'; cr."
       },
       {
-        "name": "PL/SQL",
-        "extension": ".sql",
-        "hello_world": "BEGIN\n    DBMS_OUTPUT.PUT_LINE('Hello, World!');\nEND;"
-      },
-      {
         "name": "T-SQL",
         "extension": ".sql",
         "hello_world": "PRINT 'Hello, World!'"
@@ -274,11 +269,6 @@
         "name": "Nim",
         "extension": ".nim",
         "hello_world": "echo \"Hello, World!\""
-      },
-      {
-        "name": "APL",
-        "extension": ".apl",
-        "hello_world": "⎕←'Hello, World!'"
       },
       {
         "name": "XPath",
