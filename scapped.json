@@ -1,0 +1,346 @@
+{
+    "programming_languages": [
+      {
+        "name": "Python",
+        "extension": ".py",
+        "hello_world": "print('Hello, World!')"
+      },
+      {
+        "name": "Java",
+        "extension": ".java",
+        "hello_world": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+      },
+      {
+        "name": "C++",
+        "extension": ".cpp",
+        "hello_world": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}"
+      },
+      {
+        "name": "JavaScript",
+        "extension": ".js",
+        "hello_world": "console.log('Hello, World!');"
+      },
+      {
+        "name": "C#",
+        "extension": ".cs",
+        "hello_world": "using System;\n\nclass HelloWorld {\n    static void Main() {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}"
+      },
+      {
+        "name": "Ruby",
+        "extension": ".rb",
+        "hello_world": "puts 'Hello, World!'"
+      },
+      {
+        "name": "Go",
+        "extension": ".go",
+        "hello_world": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}"
+      },
+      {
+        "name": "Swift",
+        "extension": ".swift",
+        "hello_world": "import Swift\n\nprint(\"Hello, World!\")"
+      },
+      {
+        "name": "Rust",
+        "extension": ".rs",
+        "hello_world": "fn main() {\n    println!(\"Hello, World!\");\n}"
+      },
+      {
+        "name": "PHP",
+        "extension": ".php",
+        "hello_world": "<?php\n\necho \"Hello, World!\";\n?>"
+      },
+      {
+        "name": "Kotlin",
+        "extension": ".kt",
+        "hello_world": "fun main() {\n    println(\"Hello, World!\")\n}"
+      },
+      {
+        "name": "Perl",
+        "extension": ".pl",
+        "hello_world": "print \"Hello, World!\\n\";"
+      },
+      {
+        "name": "Haskell",
+        "extension": ".hs",
+        "hello_world": "main = putStrLn \"Hello, World!\""
+      },
+      {
+        "name": "Scala",
+        "extension": ".scala",
+        "hello_world": "object HelloWorld extends App {\n    println(\"Hello, World!\")\n}"
+      },
+      {
+        "name": "R",
+        "extension": ".R",
+        "hello_world": "cat(\"Hello, World!\\n\")"
+      },
+      {
+        "name": "TypeScript",
+        "extension": ".ts",
+        "hello_world": "console.log('Hello, World!');"
+      },
+      {
+        "name": "C",
+        "extension": ".c",
+        "hello_world": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+      },
+      {
+        "name": "Objective-C",
+        "extension": ".m",
+        "hello_world": "#import <Foundation/Foundation.h>\n\nint main() {\n    @autoreleasepool {\n        NSLog(@\"Hello, World!\");\n    }\n    return 0;\n}"
+      },
+      {
+        "name": "VB.NET",
+        "extension": ".vb",
+        "hello_world": "Imports System\n\nModule HelloWorld\n    Sub Main()\n        Console.WriteLine(\"Hello, World!\")\n    End Sub\nEnd Module"
+      },
+      {
+        "name": "F#",
+        "extension": ".fs",
+        "hello_world": "printfn \"Hello, World!\""
+      },
+      {
+        "name": "Lua",
+        "extension": ".lua",
+        "hello_world": "print('Hello, World!')"
+      },
+      {
+        "name": "Matlab",
+        "extension": ".m",
+        "hello_world": "disp('Hello, World!');"
+      },
+      {
+        "name": "Groovy",
+        "extension": ".groovy",
+        "hello_world": "println 'Hello, World!'"
+      },
+      {
+        "name": "Delphi",
+        "extension": ".pas",
+        "hello_world": "program HelloWorld;\nbegin\n  WriteLn('Hello, World!');\nend."
+      },
+      {
+        "name": "PowerShell",
+        "extension": ".ps1",
+        "hello_world": "Write-Host \"Hello, World!\""
+      },
+      {
+        "name": "Assembly",
+        "extension": ".asm",
+        "hello_world": "section .data\n    hello db 'Hello, World!', 0\nsection .text\n    global _start\n_start:\n    ; write hello\n    mov eax, 4\n    mov ebx, 1\n    mov ecx, hello\n    mov edx, 13\n    int 0x80\n\n    ; exit\n    mov eax, 1\n    xor ebx, ebx\n    int 0x80"
+      },
+      {
+        "name": "COBOL",
+        "extension": ".cob",
+        "hello_world": "IDENTIFICATION DIVISION.\nPROGRAM-ID. HelloWorld.\nPROCEDURE DIVISION.\n    DISPLAY 'Hello, World!'.\n    STOP RUN."
+      },
+      {
+        "name": "Fortran",
+        "extension": ".f90",
+        "hello_world": "PROGRAM HelloWorld\n    PRINT *, 'Hello, World!'\nEND PROGRAM HelloWorld"
+      },
+      {
+        "name": "Dart",
+        "extension": ".dart",
+        "hello_world": "void main() {\n    print('Hello, World!');\n}"
+      },
+      {
+        "name": "Ada",
+        "extension": ".adb",
+        "hello_world": "with Ada.Text_IO;\n\nprocedure HelloWorld is\nbegin\n    Ada.Text_IO.Put_Line (\"Hello, World!\");\nend HelloWorld;"
+      },
+      {
+        "name": "Scheme",
+        "extension": ".scm",
+        "hello_world": "(display \"Hello, World!\")(newline)"
+      },
+      {
+        "name": "Prolog",
+        "extension": ".pl",
+        "hello_world": ":- initialization(main).\n\nmain :- write('Hello, World!'), nl, halt."
+      },
+      {
+        "name": "Lisp",
+        "extension": ".lisp",
+        "hello_world": "(write-line \"Hello, World!\")"
+      },
+      {
+        "name": "Erlang",
+        "extension": ".erl",
+        "hello_world": "-module(hello_world).\n-export([hello/0]).\n\nhello() ->\n    io:fwrite(\"Hello, World!~n\")."
+      },
+      {
+        "name": "Clojure",
+        "extension": ".clj",
+        "hello_world": "(println \"Hello, World!\")"
+      },
+      {
+        "name": "Smalltalk",
+        "extension": ".st",
+        "hello_world": "Transcript show: 'Hello, World!'; cr."
+      },
+      {
+        "name": "PL/SQL",
+        "extension": ".sql",
+        "hello_world": "BEGIN\n    DBMS_OUTPUT.PUT_LINE('Hello, World!');\nEND;"
+      },
+      {
+        "name": "T-SQL",
+        "extension": ".sql",
+        "hello_world": "PRINT 'Hello, World!'"
+      },
+      {
+        "name": "Racket",
+        "extension": ".rkt",
+        "hello_world": "#lang racket\n\n(displayln \"Hello, World!\")"
+      },
+      {
+        "name": "Bash",
+        "extension": ".sh",
+        "hello_world": "echo \"Hello, World!\""
+      },
+      {
+        "name": "Awk",
+        "extension": ".awk",
+        "hello_world": "BEGIN { print \"Hello, World!\" }"
+      },
+      {
+        "name": "Elixir",
+        "extension": ".exs",
+        "hello_world": "IO.puts \"Hello, World!\""
+      },
+      {
+        "name": "RPG",
+        "extension": ".rpg",
+        "hello_world": "     H DFTACTGRP(*NO)\n     FHELLO    CF   E             WORKSTN\n      /FREE\n       WRITE HELLOMSG;\n       *INLR = *ON;\n      /END-FREE\n     H MAIN(Main)\n      /FREE\n      BEGSR Main;\n         EXSR SendHelloMsg;\n         *INLR = *ON;\n      ENDSR;\n\n     BEGSR SendHelloMsg;\n         WRITE WORKSTN;\n     ENDSR;\n     H HELLOMSG     S             50A   INZ('Hello, World!')\n     H                                     PRINT\n     H                                     DSPATR(UL)\n      /END-FREE"
+      },
+      {
+        "name": "ActionScript",
+        "extension": ".as",
+        "hello_world": "package {\n    import flash.display.Sprite;\n    import flash.text.TextField;\n\n    public class HelloWorld extends Sprite {\n        public function HelloWorld() {\n            var textField:TextField = new TextField();\n            textField.text = \"Hello, World!\";\n            addChild(textField);\n        }\n    }\n}"
+      },
+      {
+        "name": "ABAP",
+        "extension": ".abap",
+        "hello_world": "REPORT zhello.\n\nWRITE 'Hello, World!'."
+      },
+      {
+        "name": "Io",
+        "extension": ".io",
+        "hello_world": "\"Hello, World!\" println"
+      },
+      {
+        "name": "Rexx",
+        "extension": ".rexx",
+        "hello_world": "say 'Hello, World!'"
+      },
+      {
+        "name": "Pascal",
+        "extension": ".pas",
+        "hello_world": "program HelloWorld;\nbegin\n  writeln('Hello, World!');\nend."
+      },
+      {
+        "name": "Apex",
+        "extension": ".cls",
+        "hello_world": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.debug('Hello, World!');\n    }\n}"
+      },
+      {
+        "name": "Perl 6",
+        "extension": ".p6",
+        "hello_world": "say 'Hello, World!'"
+      },
+      {
+        "name": "OCaml",
+        "extension": ".ml",
+        "hello_world": "print_endline \"Hello, World!\""
+      },
+      {
+        "name": "Crystal",
+        "extension": ".cr",
+        "hello_world": "puts \"Hello, World!\""
+      },
+      {
+        "name": "Forth",
+        "extension": ".fs",
+        "hello_world": ": hello  cr  .( Hello, World!) ;  hello"
+      },
+      {
+        "name": "Julia",
+        "extension": ".jl",
+        "hello_world": "println(\"Hello, World!\")"
+      },
+      {
+        "name": "Nim",
+        "extension": ".nim",
+        "hello_world": "echo \"Hello, World!\""
+      },
+      {
+        "name": "APL",
+        "extension": ".apl",
+        "hello_world": "⎕←'Hello, World!'"
+      },
+      {
+        "name": "XPath",
+        "extension": ".xpath",
+        "hello_world": "fn:puts('Hello, World!')"
+      },
+      {
+        "name": "Fortress",
+        "extension": ".fss",
+        "hello_world": "println(\"Hello, World!\")"
+      },
+      {
+        "name": "Verilog",
+        "extension": ".v",
+        "hello_world": "module HelloWorld;\n    initial begin\n        $display(\"Hello, World!\");\n    end\nendmodule"
+      },
+      {
+        "name": "Haxe",
+        "extension": ".hx",
+        "hello_world": "class HelloWorld {\n    static function main() {\n        trace(\"Hello, World!\");\n    }\n}"
+      },
+      {
+        "name": "Tcl",
+        "extension": ".tcl",
+        "hello_world": "puts \"Hello, World!\""
+      },
+      {
+        "name": "D",
+        "extension": ".d",
+        "hello_world": "import std.stdio;\n\nvoid main()\n{\n    writeln(\"Hello, World!\");\n}"
+      },
+      {
+        "name": "Erlang",
+        "extension": ".erl",
+        "hello_world": "-module(hello_world).\n-export([hello/0]).\n\nhello() ->\n    io:fwrite(\"Hello, World!~n\")."
+      },
+      {
+        "name": "K",
+        "extension": ".k",
+        "hello_world": "\\n'Hello, World!\\n'"
+      },
+      {
+        "name": "ZPL",
+        "extension": ".zpl",
+        "hello_world": "PROGRAM HELLO-WORLD\n    PRINT 'Hello, World!'\nEND-PROGRAM"
+      },
+      {
+        "name": "J",
+        "extension": ".ijs",
+        "hello_world": "echo 'Hello, World!'"
+      },
+      {
+        "name": "Curl",
+        "extension": ".curl",
+        "hello_world": "echo \"Hello, World!\""
+      },
+      {
+        "name": "Pike",
+        "extension": ".pike",
+        "hello_world": "int main() {\n    write(\"Hello, World!\\n\");\n    return 0;\n}"
+      }
+    ]
+}
+
+    
